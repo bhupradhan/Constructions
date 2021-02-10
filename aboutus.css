@@ -1,0 +1,93 @@
+body{
+	margin:0;
+	padding:0;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(background.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+
+}
+.sub{
+	line-height: 300px;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.logo{
+	margin: 0px;
+	height: 200px;
+}
+.about-section{
+	width: 1438px;
+	background-color: white;
+	padding: 40px;
+}
+.inner-width{
+	max-width: 1000px;
+	overflow: hidden;
+	padding: 0 20px;
+	margin: auto;
+}
+.about-section h1{
+	text-align: center;
+	color: black;
+}
+.about p{
+	font-size: 20px;
+
+}
+.border{
+	width: 100px;
+	height: 3px;
+	background: brown;
+	margin: 40px auto;
+}
+.about-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.about-coloumn{
+	flex: 50%;
+}
+.about{
+	padding-right: 30px;
+}
+.about p{
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.vision-section h1{
+	text-align: center;
+
+}
+.vision{
+	float: left;
+	margin-right: 50px;
+
+	
+}
+.vision .box{
+	
+	margin-left: 120px;
+	width: 350px;
+	padding: 100px;
+	background: white;
+}
+.pic{
+	margin: 0px;
+	height: 100px;
+}
+
+footer{
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	background: black;
+	color: white;
+	margin-top: 700px;
+
+}
+

@@ -1,0 +1,62 @@
+.box{
+
+
+  margin : 50px;
+  padding-left: 10px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+
+background-image: url(images/arg.png);
+background-size: cover;
+
+ackground-color: #F4B41A;
+  
+margin-right: 50px;
+
+
+  border: solid #CECECE  0.5px;
+
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  opacity:3;
+}
+.box-img{
+margin : 50px;
+  padding-left: 10px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+
+background-image: url(images/bud12.png);
+
+background-size: cover;
+
+
+
+
+ackground-color: #F4B41A;
+  
+margin-right: 50px;
+
+
+  border: solid #CECECE  0.5px;
+
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  opacity:3;
+
+
+}
+
+
+
+h1{
+position: absolute;
+  left: 600px;
+  top: 230px; 
+
+  
+  
+color: rgb(229, 152, 102);
+    font-family: "Lexend Peta";
+  font-size: 70px;
+}

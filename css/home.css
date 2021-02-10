@@ -1,0 +1,47 @@
+body{
+	background-image: url(images/hader.png);
+}
+.stick{
+	top:0;
+	position: sticky;
+	width: 100%;
+
+
+}
+
+h2{
+	text-align: center;
+	color: black;
+	text-decoration: bold;
+}
+ul.navbar{
+  list-style-type: none;
+  margin: 1;
+  padding: 1;
+  overflow: hidden;
+  opacity: 1;
+  ackground-color:#0078FD ;
+  background-image: url(images/header.png);
+
+}
+ul.navbar li{
+	float : left;
+}
+ul.navbar a{
+	display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+ul.navbar li a:hover:not(.active) {
+	background-color: #17202A   ;
+	opacity: 0.8;
+}
+ul.navbar li a.active {
+	background-color:#EAECEE;
+}
+ul.navbar li.right {
+	float: right;
+}

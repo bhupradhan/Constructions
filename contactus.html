@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/button.css">
+	<script type="text/javascript" src='js/test2.js'></script>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			background-color: green;
+		}
+		.p{
+			background-color: #8FCE8C;
+		}
+			form label, input, select{
+
+				margin-bottom:20px;
+				font-family: TIMES NEW ROMAN;
+				width: 200px;
+			}
+			input, select{
+				margin: 10px 0;
+				box-sizing: content-box;
+			}
+
+	</style>
+	<title>Contact Us!</title>
+</head>
+<body style="background-color: lightgreen">
+	<h1>CONTACT FORM</h1>
+	<hr>
+	<div class="container" style='margin-left: 600px'>
+		<form action="contact.php" method="post" name="contact" onsubmit="return Validate(this);">	
+			
+			<label>First Name:</label>
+			<input class= 'p' type="text" name="firstname"  pattern="[A-Za-z]{1,15}" title="Name should contain letters only.." placeholder="Enter your FirstName....">
+			<br>
+			<label>Last Name:</label>
+			<input class= 'p' type="text" name="lastname" pattern="[A-Za-z]{1,15}" title="Name should contain letters only.." placeholder="Enter your LastName...." >
+			<br>
+			<label>Mobile Number:</label>
+			<input class= 'p' type="text" name="number" pattern="[0-9]{1-10}" title="Phone number should contain numbers only.." placeholder="Enter your Phone Number...." >
+			<br>
+			<label>Email ID:</label>
+			<input class= 'p' type="Email" name="email" placeholder="Enter you Email ID...." >
+			<br>
+			<label>Select reason for your enquiry:</label>
+			<select class= 'p' name="reason" >
+			<option value="1">Planning to buy an apartment!</option>
+			<option value="2">Regarding the plots under construction!</option>
+			<option value="3">Employee of ours!</option> 
+			</select>
+			<br>
+			<label >Enter your Enquiry:</label>
+			<br>
+			<textarea class= 'p' id="enquiry" name="enquiry" placeholder="Please Enter your enquiry" style="height: 200px; width: 400px" ></textarea>
+			<br>
+			<button type="submit" value="submit">Submit</button><button onclick="refreshPage()">Refill</button>
+		
+		</form>
+	</div>
+
+</body>
+</html>

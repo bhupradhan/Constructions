@@ -1,0 +1,49 @@
+body{
+	margin:0;
+	padding:0;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(background.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+
+}
+.sub{
+	line-height: 300px;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.logo{
+	margin: 0px;
+	height: 200px;
+}
+.container{
+	margin-top: 100px;
+
+	padding: 0px;
+}
+.box{
+	float: left;
+	border: 3px solid brown;
+	width: 200px;
+	height: 200px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	padding: 20px;
+}
+.box h2{
+	line-height: 140px;
+}
+footer{
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	background: black;
+	color: white;
+	margin-top: 500px;
+
+}
